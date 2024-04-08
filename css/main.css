@@ -70,11 +70,11 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: linear-gradient(to right, #434343 0%, black 100%);
 	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #FFFFFF;
 }
 
 /**
@@ -102,7 +102,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #e65153;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -156,7 +156,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #FFFFFF;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -189,7 +189,7 @@ blockquote:before {
 	font-size: 8rem;
 	line-height: 0px;
 	margin: 0;
-	color: #313131;
+	color: #E1E1E1;
 	font-family: arial, sans-serif;
 	position: absolute;
 	top: 3rem;
@@ -212,7 +212,7 @@ blockquote cite:before {
 	content: "\2014 \0020";
 }
 blockquote cite a, blockquote cite a:visited {
-	color: #888888;
+	color: #F1F1F1;
 	border: none;
 }
 abbr {
@@ -220,7 +220,7 @@ abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
-	color: #888888;
+	color: #F1F1F1;
 }
 var, kbd, samp, code, pre {
 	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -601,7 +601,7 @@ label, legend {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
-	color: #3b3b3b;
+	color: #fff;
 	display: block;
 }
 input[type="checkbox"], input[type="radio"] {
@@ -870,7 +870,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: absolute;
 	font-size: 8rem;
 	font-family: Arial, Sans-Serif;
-	color: #333;
+	color: #fff;
 }
 .pull-quote:before {
 	content: "\201C";
@@ -1023,7 +1023,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #ebebeb;
 }
 .grey-section p.lead {
-	color: #7d7d7d;
+	color: #fff;
 }
 .section-intro {
 	max-width: 700px;
@@ -1036,7 +1036,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #313131;
+	color: #fff;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1490,7 +1490,9 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+	/* background: #FFFFFF; */
+	
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1537,7 +1539,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1546,7 +1548,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #FFFFFF;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1623,6 +1625,8 @@ header .logo a {
 #resume {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	color: #FFFFFF;
+	background: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 #resume .resume-header {
@@ -1790,7 +1794,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background: linear-gradient(to right, #434343 0%, black 100%);
+	/* background: #FFFFFF; */
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -2032,7 +2037,7 @@ header .logo a {
 	text-align: center;
 }
 #cta p.lead {
-	color: #6e6e6e;
+	color: #fff;
 }
 .cta-content {
 	max-width: 640px;
@@ -2067,7 +2072,7 @@ header .logo a {
 	margin-left: -40px;
 }
 .section-ads h2 a, .section-ads h2 a:visited {
-	color: #313131;
+	color: #fff;
 }
 .section-ads span {
 	color: #3F0D39;
@@ -2095,13 +2100,14 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131  no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	/* background-color:#000; */
 	background-size: cover;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
-	color: white;
+	color: #000;
 	position: relative;
 }
 #services .overlay {
@@ -2119,7 +2125,7 @@ header .logo a {
 }
 
 #services .section-intro h1 {
-	color: white;
+	color: #000;
 }
 #services .section-intro h5 {
 	color: #FF0077;
@@ -2147,7 +2153,7 @@ header .logo a {
 	color: #FF0077;
 }
 .services-list h3 {
-	color: #FFFFFF;
+	color: #000;
 }
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
@@ -2597,3 +2603,42 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Skills Section CSS */
+
+.container {
+	max-width: 100%;
+	padding: -1 px;
+	margin: 1 auto;
+	background: linear-gradient(to right, #434343 0%, black 100%);
+  }
+  .section {
+	/* background-color:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;; */
+
+	/* background-color: #; */
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	padding: 20px;
+  }
+  .title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #fa0003;
+  }
+  .list {
+	list-style: none;
+	padding: 0;
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+  }
+  .list-item {
+	margin-bottom: 10px;
+  }
+  .icon {
+	margin-right: 10px;
+  }
+
+  
