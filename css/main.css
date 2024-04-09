@@ -726,7 +726,8 @@ button.large, .button.large {
 }
 button.stroke, .button.stroke {
 	background: transparent !important;
-	border: 3px solid #313131;
+	border: 3px solid #e65153;
+	color: #E8E8E8;
 	line-height: 4.8rem;
 }
 button.stroke.medium, .button.stroke.medium {
@@ -945,7 +946,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .skill-bars li {
 	height: .6rem;
-	background: #a1a1a1;
+	background: #e65153;
 	width: 100%;
 	margin-bottom: 6rem;
 	padding: 0;
@@ -956,14 +957,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #4a95cc;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background: #c8e675;
 	position: relative;
 	height: 100%;
 }
@@ -2125,7 +2126,7 @@ header .logo a {
 }
 
 #services .section-intro h1 {
-	color: #000;
+	color: #FFFFFF;
 }
 #services .section-intro h5 {
 	color: #FF0077;
@@ -2135,6 +2136,7 @@ header .logo a {
 }
 .services-content {
 	max-width: 1200px;
+	
 }
 .services-list {
 	margin-top: 1.2rem;
@@ -2153,7 +2155,7 @@ header .logo a {
 	color: #FF0077;
 }
 .services-list h3 {
-	color: #000;
+	color: #FFFFFF;
 }
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
@@ -2368,7 +2370,7 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #FF0077;
+	background: #758c36;
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
@@ -2647,3 +2649,6 @@ footer .copyright span:last-child::after {
   color: #fff;
   
 }
+/* .hire{
+color : #fff;
+} */
