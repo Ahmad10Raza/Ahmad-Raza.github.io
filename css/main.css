@@ -156,7 +156,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #FFFFFF;
+	color: #F1F1F1;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1899,7 +1899,7 @@ header .logo a {
  */
 .popup-modal {
 	max-width: 550px;
-	background: #FFFFFF;
+	background: #0d0d0d;
 	position: relative;
 	margin: 0 auto;
 }
@@ -1932,7 +1932,7 @@ header .logo a {
 	letter-spacing: .1rem;
 	display: block;
 	text-align: left;
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 .popup-modal .link-box {
 	width: 100%;
@@ -2641,4 +2641,9 @@ footer .copyright span:last-child::after {
 	margin-right: 10px;
   }
 
+
+.icon {
+  font-size: 1.9rem;
+  color: #fff;
   
+}
